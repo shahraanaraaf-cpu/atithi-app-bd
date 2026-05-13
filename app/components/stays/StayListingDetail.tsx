@@ -2,7 +2,7 @@
 
 import { useTranslations } from 'next-intl'
 import { useState, useEffect } from 'react'
-import { GlobalHeader } from '@/components/shared/GlobalHeader'
+import { GlobalHeader } from '@/app/components/shared/GlobalHeader'
 import { Footer } from '@/app/components/layout/Footer'
 import { initiatePayment } from '@/app/actions/payment'
 import { getListingById } from '@/app/actions/listings'
@@ -772,3 +772,4 @@ export default function StayListingPage({ mode = 'view', listingId, onSave }: St
     </div>
   )
 }
+
