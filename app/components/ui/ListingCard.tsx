@@ -1,7 +1,7 @@
 'use client'
 
 import { memo, useState } from 'react'
-import { RemoteImage } from '@/components/shared/RemoteImage'
+import { RemoteImage } from '@/app/components/shared/RemoteImage'
 import { PriceDisplay } from './PriceDisplay'
 
 interface ListingCardProps {
@@ -82,3 +82,4 @@ export const ListingCard = memo(function ListingCard({ title, location, rating, 
     </div>
   )
 })
+

@@ -24,3 +24,4 @@ const MapWithNoSSR = dynamic(
 export function PropertyMap({ lat, lng, locationName }: PropertyMapProps) {
   return <MapWithNoSSR lat={lat} lng={lng} locationName={locationName} />
 }
+

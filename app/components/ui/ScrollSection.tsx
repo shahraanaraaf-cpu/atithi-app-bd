@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useRef } from 'react'
-import { SeeAllCard } from '@/components/shared/SeeAllCard'
+import { SeeAllCard } from '@/app/components/shared/SeeAllCard'
 
 interface ScrollSectionProps {
   title: string
@@ -65,3 +65,4 @@ export function ScrollSection({ title, children, seeAllHref, seeAllImages, seeAl
     </section>
   )
 }
+
