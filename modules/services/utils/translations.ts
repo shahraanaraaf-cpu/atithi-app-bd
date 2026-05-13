@@ -1,0 +1,63 @@
+export const srvTitleTranslations: Record<string, { en: string, bn: string }> = {
+  "Private Chef - Authentic Kacchi Biryani": { en: "Private Chef - Authentic Kacchi Biryani", bn: "প্রাইভেট শেফ - আসল কাচ্চি বিরিয়ানি" },
+  "Car with Driver - Dhaka to Cox's Bazar": { en: "Car with Driver - Dhaka to Cox's Bazar", bn: "ড্রাইভার সহ গাড়ি - ঢাকা থেকে কক্সবাজার" },
+  "Travel Photographer - Full Day": { en: "Travel Photographer - Full Day", bn: "ভ্রমণ ফটোগ্রাফার - সারাদিন" },
+  "Sundarbans Tour Guide - 2 Days": { en: "Sundarbans Tour Guide - 2 Days", bn: "সুন্দরবন ট্যুর গাইড - ২ দিন" },
+  "VIP Airport Pickup with Meet & Greet": { en: "VIP Airport Pickup with Meet & Greet", bn: "মিট অ্যান্ড গ্রিট সহ ভিআইপি এয়ারপোর্ট পিকআপ" },
+  "Laundry & Ironing - 24h Delivery": { en: "Laundry & Ironing - 24h Delivery", bn: "লন্ড্রি এবং ইস্ত্রি - ২৪ ঘণ্টা ডেলিভারি" },
+  "Home-cooked Kacchi Biryani for 10": { en: "Home-cooked Kacchi Biryani for 10", bn: "১০ জনের জন্য বাড়িতে তৈরি কাচ্চি বিরিয়ানি" },
+  "BBQ Party Catering at Your Villa": { en: "BBQ Party Catering at Your Villa", bn: "আপনার ভিলায় বারবিকিউ পার্টি ক্যাটারিং" },
+  "Traditional Bengali Feast - 20 Dishes": { en: "Traditional Bengali Feast - 20 Dishes", bn: "ঐতিহ্যবাহী বাঙালি ভোজে ২০ পদ" },
+  "Private Chef for Weekend Getaway": { en: "Private Chef for Weekend Getaway", bn: "উইকএন্ড গেটওয়ের জন্য প্রাইভেট শেফ" },
+  "Fresh Seafood BBQ at Beach House": { en: "Fresh Seafood BBQ at Beach House", bn: "বিচ হাউসে তাজা সীফুড বারবিকিউ" },
+  "Luxury Car with Driver - Full Day": { en: "Luxury Car with Driver - Full Day", bn: "ড্রাইভার সহ বিলাসবহুল গাড়ি - সারাদিন" },
+  "Dhaka to Sylhet Transfer - AC Sedan": { en: "Dhaka to Sylhet Transfer - AC Sedan", bn: "ঢাকা থেকে সিলেট ট্রান্সফার - এসি সেডান" },
+  "Dhaka to Cox's Bazar - SUV with Driver": { en: "Dhaka to Cox's Bazar - SUV with Driver", bn: "ঢাকা থেকে কক্সবাজার - ড্রাইভার সহ এসইউভি" },
+  "Airport Transfer - Business Class": { en: "Airport Transfer - Business Class", bn: "এয়ারপোর্ট ট্রান্সফার - বিজনেস ক্লাস" },
+  "Day Tour Car - Bandarban Circuit": { en: "Day Tour Car - Bandarban Circuit", bn: "ডে ট্যুর কার - বান্দরবান সার্কিট" },
+  "Instagram Travel Photoshoot - Full Day": { en: "Instagram Travel Photoshoot - Full Day", bn: "ইনস্টাগ্রাম ট্রাভেল ফটোশুট - সারাদিন" },
+  "Cox's Bazar Beach Photography": { en: "Cox's Bazar Beach Photography", bn: "কক্সবাজার সমুদ্র সৈকত ফটোগ্রাফি" },
+  "Sajek Valley Drone Photography": { en: "Sajek Valley Drone Photography", bn: "সাজেক ভ্যালি ড্রোন ফটোগ্রাফি" },
+  "Wedding Photography Package": { en: "Wedding Photography Package", bn: "ওয়েডিং ফটোগ্রাফি প্যাকেজ" },
+  "Corporate Event Photography": { en: "Corporate Event Photography", bn: "কর্পোরেট ইভেন্ট ফটোগ্রাফি" }
+};
+
+export const srvProviderTranslations: Record<string, { en: string, bn: string }> = {
+  "Ranna Ghar": { en: "Ranna Ghar", bn: "রান্না ঘর" },
+  "City Drive BD": { en: "City Drive BD", bn: "সিটি ড্রাইভ বিডি" },
+  "Lens Masters": { en: "Lens Masters", bn: "লেন্স মাস্টার্স" },
+  "Forest Expert BD": { en: "Forest Expert BD", bn: "ফরেস্ট এক্সপার্ট বিডি" },
+  "Airport VIP": { en: "Airport VIP", bn: "এয়ারপোর্ট ভিআইপি" },
+  "CleanPress BD": { en: "CleanPress BD", bn: "ক্লিনপ্রেস বিডি" },
+  "Biryani Master": { en: "Biryani Master", bn: "বিরিয়ানি মাস্টার" },
+  "Grill Masters BD": { en: "Grill Masters BD", bn: "গ্রিল মাস্টার্স বিডি" },
+  "Ghorowa Khana": { en: "Ghorowa Khana", bn: "ঘরোয়া খানা" },
+  "Chef on Call": { en: "Chef on Call", bn: "শেফ অন কল" },
+  "Seafood Grill": { en: "Seafood Grill", bn: "সীফুড গ্রিল" },
+  "City Drive Pro": { en: "City Drive Pro", bn: "সিটি ড্রাইভ প্রো" },
+  "InterCity Travel": { en: "InterCity Travel", bn: "ইন্টারসিটি ট্রাভেল" },
+  "Beach Route": { en: "Beach Route", bn: "বিচ রুট" },
+  "Airport Express": { en: "Airport Express", bn: "এয়ারপোর্ট এক্সপ্রেস" },
+  "Hill Drive BD": { en: "Hill Drive BD", bn: "হিল ড্রাইভ বিডি" },
+  "Wanderlust Lens": { en: "Wanderlust Lens", bn: "ওয়ান্ডারলাস্ট লেন্স" },
+  "Beach Shots BD": { en: "Beach Shots BD", bn: "বিচ শটস বিডি" },
+  "SkyLens BD": { en: "SkyLens BD", bn: "স্কাইলেন্স বিডি" },
+  "Shaadi Clicks": { en: "Shaadi Clicks", bn: "শাদি ক্লিকস" },
+  "BizShots": { en: "BizShots", bn: "বিজশটস" }
+};
+
+export const srvLocationTranslations: Record<string, { en: string, bn: string }> = {
+  "Dhaka": { en: "Dhaka", bn: "ঢাকা" },
+  "All Bangladesh": { en: "All Bangladesh", bn: "সমগ্র বাংলাদেশ" },
+  "Khulna": { en: "Khulna", bn: "খুলনা" },
+  "DAC Airport": { en: "DAC Airport", bn: "ডিএসি বিমানবন্দর" },
+  "All Areas": { en: "All Areas", bn: "সব এলাকা" },
+  "Cox's Bazar": { en: "Cox's Bazar", bn: "কক্সবাজার" },
+  "Sylhet": { en: "Sylhet", bn: "সিলেট" },
+  "Saint Martin": { en: "Saint Martin", bn: "সেন্ট মার্টিন" },
+  "Dhaka-Sylhet": { en: "Dhaka-Sylhet", bn: "ঢাকা-সিলেট" },
+  "Dhaka-Cox's Bazar": { en: "Dhaka-Cox's Bazar", bn: "ঢাকা-কক্সবাজার" },
+  "Bandarban": { en: "Bandarban", bn: "বান্দরবান" },
+  "Sajek": { en: "Sajek", bn: "সাজেক" },
+  "All Major Cities": { en: "All Major Cities", bn: "সব প্রধান শহর" }
+};

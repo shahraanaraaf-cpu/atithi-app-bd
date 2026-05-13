@@ -1,0 +1,52 @@
+export const hostTranslations: Record<string, { en: string, bn: string }> = {
+  'Hosted by Shuvo': { en: 'Hosted by Shuvo', bn: 'হোস্ট করেছেন শুভ' },
+  'Superhost Karim': { en: 'Superhost Karim', bn: 'সুপারহোস্ট করিম' },
+  'Hosted by Maria': { en: 'Hosted by Maria', bn: 'হোস্ট করেছেন মারিয়া' },
+  'Professional Host': { en: 'Professional Host', bn: 'পেশাদার হোস্ট' },
+  'Hosted by Nusrat': { en: 'Hosted by Nusrat', bn: 'হোস্ট করেছেন নুসরাত' },
+  'Superhost Sakib': { en: 'Superhost Sakib', bn: 'সুপারহোস্ট সাকিব' },
+  'Hosted by Tamim': { en: 'Hosted by Tamim', bn: 'হোস্ট করেছেন তামিম' },
+  'Hosted by Rahim': { en: 'Hosted by Rahim', bn: 'হোস্ট করেছেন রহিম' },
+  'Superhost Anika': { en: 'Superhost Anika', bn: 'সুপারহোস্ট আনিকা' },
+  'Hosted by Tanjil': { en: 'Hosted by Tanjil', bn: 'হোস্ট করেছেন তানজিল' },
+  'Hosted by Anis': { en: 'Hosted by Anis', bn: 'হোস্ট করেছেন আনিস' },
+  'Superhost Riya': { en: 'Superhost Riya', bn: 'সুপারহোস্ট রিয়া' }
+};
+
+export const locationTranslations: Record<string, { en: string, bn: string }> = {
+  'Sylhet, Bangladesh': { en: 'Sylhet, Bangladesh', bn: 'সিলেট, বাংলাদেশ' },
+  'Malnicherra Tea Estate': { en: 'Malnicherra Tea Estate', bn: 'মালনিছড়া চা বাগান' },
+  'Ratargul Swamp Forest': { en: 'Ratargul Swamp Forest', bn: 'রাতারগুল সোয়াম্প ফরেস্ট' },
+  'Jaflong, Sylhet': { en: 'Jaflong, Sylhet', bn: 'জাফলং, সিলেট' },
+  'Bholagunj White Stone': { en: 'Bholagunj White Stone', bn: 'ভোলাগঞ্জ সাদা পাথর' },
+  'Srimangal Tea Hill': { en: 'Srimangal Tea Hill', bn: 'শ্রীমঙ্গল চা পাহাড়' },
+  'Lalakhal River': { en: 'Lalakhal River', bn: 'লালাখাল নদী' },
+  'Bisnakandi Point': { en: 'Bisnakandi Point', bn: 'বিছানাকান্দি পয়েন্ট' },
+  
+  'Inani Beach, Cox\'s Bazar': { en: 'Inani Beach, Cox\'s Bazar', bn: 'ইনানী সৈকত, কক্সবাজার' },
+  'Marine Drive Resort': { en: 'Marine Drive Resort', bn: 'মেরিন ড্রাইভ রিসোর্ট' },
+  'Kolatoli Sea Front': { en: 'Kolatoli Sea Front', bn: 'কলাতলী সি ফ্রন্ট' },
+  'Laboni Beach Area': { en: 'Laboni Beach Area', bn: 'লাবনী সৈকত এলাকা' },
+  'Saint Martin\'s Island': { en: 'Saint Martin\'s Island', bn: 'সেন্ট মার্টিন দ্বীপ' },
+  'Himchari Hill': { en: 'Himchari Hill', bn: 'হিমছড়ি পাহাড়' },
+  'Sugandha Beach': { en: 'Sugandha Beach', bn: 'সুগন্ধা সৈকত' },
+  'Teknaf Port': { en: 'Teknaf Port', bn: 'টেকনাফ বন্দর' },
+
+  'Sajek Valley': { en: 'Sajek Valley', bn: 'সাজেক ভ্যালি' },
+  'Nilgiri, Bandarban': { en: 'Nilgiri, Bandarban', bn: 'নীলগিরি, বান্দরবান' },
+  'Nilachal View': { en: 'Nilachal View', bn: 'নীলাচল ভিউ' },
+  'Bogalake Trek': { en: 'Bogalake Trek', bn: 'বগলেক ট্রেক' },
+  'Keokradong Peak': { en: 'Keokradong Peak', bn: 'কেওক্রাডং চূড়া' },
+  'Chimbuk Hill': { en: 'Chimbuk Hill', bn: 'চিম্বুক পাহাড়' },
+  'Nafakhum Falls': { en: 'Nafakhum Falls', bn: 'নাফাখুম জলপ্রপাত' },
+  'Rangamati Lake': { en: 'Rangamati Lake', bn: 'রাঙ্গামাটি লেক' },
+
+  'Gulshan 2, Dhaka': { en: 'Gulshan 2, Dhaka', bn: 'গুলশান ২, ঢাকা' },
+  'Banani Residence': { en: 'Banani Residence', bn: 'বনানী রেসিডেন্স' },
+  'Dhanmondi Lake': { en: 'Dhanmondi Lake', bn: 'ধানমন্ডি লেক' },
+  'Uttara Sector 4': { en: 'Uttara Sector 4', bn: 'উত্তরা সেক্টর ৪' },
+  'Baridhara DOHS': { en: 'Baridhara DOHS', bn: 'বারিধারা ডিওএইচএস' },
+  'Puran Dhaka': { en: 'Puran Dhaka', bn: 'পুরান ঢাকা' },
+  'Bashundhara R/A': { en: 'Bashundhara R/A', bn: 'বসুন্ধরা আবাসিক এলাকা' },
+  'Nikunja 2': { en: 'Nikunja 2', bn: 'নিকুঞ্জ ২' },
+};
