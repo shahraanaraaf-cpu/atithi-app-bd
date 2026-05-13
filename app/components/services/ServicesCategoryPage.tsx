@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react'
 import { useTranslations } from 'next-intl'
-import { GlobalHeader } from '@/components/shared/GlobalHeader'
+import { GlobalHeader } from '@/app/components/shared/GlobalHeader'
 import { Footer } from '@/app/components/layout/Footer'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { 
@@ -166,3 +166,4 @@ export default function ServicesCategoryPage({ filterCategory }: ServicesCategor
     </div>
   )
 }
+

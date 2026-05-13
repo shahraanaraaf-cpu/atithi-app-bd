@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import dynamic from 'next/dynamic'
-import { GlobalHeader } from '@/components/shared/GlobalHeader'
+import { GlobalHeader } from '@/app/components/shared/GlobalHeader'
 import { Footer } from '@/app/components/layout/Footer'
 import { useCurrency } from '@/app/contexts/CurrencyContext'
 import { popularServices, chefServices, carDriverServices, photoServices } from '@/modules/services'
@@ -819,3 +819,4 @@ export default function ServiceListingDetail({ serviceId }: ServiceListingDetail
     </div>
   )
 }
+

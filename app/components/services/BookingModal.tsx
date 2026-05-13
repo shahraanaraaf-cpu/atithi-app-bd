@@ -407,3 +407,4 @@ function getServiceLabel(serviceType: string, plural: boolean = false): string {
   const label = labels[serviceType] || { singular: 'service', plural: 'services' }
   return plural ? label.plural : label.singular
 }
+
