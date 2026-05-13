@@ -1,74 +1,36 @@
-# Atithi App BD - Deployment Guide
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-This folder contains all necessary files and configurations for deploying the Atithi App BD to GitHub and production environments.
+## Getting Started
 
-## Deployment Structure
+First, run the development server:
 
-- `app/` - Next.js application files
-- `public/` - Static assets and images
-- `components/` - React components
-- `modules/` - Feature modules (stays, experiences, services)
-- `utils/` - Utility functions
-- `messages/` - Internationalization files
-- `package.json` - Dependencies and scripts
-- `next.config.js` - Next.js configuration
-- `tailwind.config.js` - Tailwind CSS configuration
-- `.env.example` - Environment variables template
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## Quick Start
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-2. Set up environment variables:
-   ```bash
-   cp .env.example .env.local
-   # Edit .env.local with your actual values
-   ```
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-3. Run development server:
-   ```bash
-   npm run dev
-   ```
+## Learn More
 
-4. Build for production:
-   ```bash
-   npm run build
-   ```
+To learn more about Next.js, take a look at the following resources:
 
-5. Start production server:
-   ```bash
-   npm start
-   ```
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## Environment Variables
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-Required environment variables:
-- `NEXT_PUBLIC_APP_URL` - Application URL
-- `NEXT_PUBLIC_API_URL` - Backend API URL
-- `DATABASE_URL` - Database connection string
-- `NEXTAUTH_SECRET` - Authentication secret
+## Deploy on Vercel
 
-## Deployment Platforms
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-### Vercel (Recommended)
-1. Connect GitHub repository
-2. Configure build command: `npm run build`
-3. Configure output directory: `.next`
-4. Add environment variables
-
-### Netlify
-1. Connect GitHub repository
-2. Configure build command: `npm run build`
-3. Configure publish directory: `out`
-4. Add environment variables
-
-### Docker
-1. Build image: `docker build -t atithi-app .`
-2. Run container: `docker run -p 3000:3000 atithi-app`
-
-## GitHub Actions
-
-Automatic deployment is set up via `.github/workflows/deploy.yml`
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
