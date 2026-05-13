@@ -1,0 +1,51 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:15
+    container_name: atithi-postgres
+    environment:
+      POSTGRES_DB: atithi_app_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    networks:
+      - atithi-network
+
+  # Redis for caching
+  redis:
+    image: redis:7-alpine
+    container_name: atithi-redis
+    ports:
+      - "6379:6379"
+    networks:
+      - atithi-network
+
+  # Next.js Application
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: atithi-app
+    environment:
+      - NODE_ENV=production
+      - DATABASE_URL=postgresql://postgres:postgres@postgres:5432/atithi_app_db
+      - REDIS_URL=redis://redis:6379
+    ports:
+      - "3000:3000"
+    depends_on:
+      - postgres
+      - redis
+    networks:
+      - atithi-network
+
+volumes:
+  postgres_data:
+
+networks:
+  atithi-network:
+    driver: bridge
