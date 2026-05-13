@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { memo, useState } from 'react'
-import { RemoteImage } from '@/components/shared/RemoteImage'
+import { RemoteImage } from '@/app/components/shared/RemoteImage'
 import { PriceDisplay } from '@/app/components/ui/PriceDisplay'
 
 export interface CardBaseProps {
@@ -128,3 +128,4 @@ export const CardBase = memo(function CardBase({
     </Link>
   )
 })
+

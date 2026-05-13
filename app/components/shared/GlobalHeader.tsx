@@ -1217,3 +1217,4 @@ export function GlobalHeader({ activeTab = 'stays', forceCompact = false }: Glob
     </div>
   )
 }
+
